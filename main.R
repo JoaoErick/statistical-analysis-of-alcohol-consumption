@@ -106,10 +106,10 @@ text(chart, elementsMatrix+2, labels=as.character(elementsMatrix))
 elements = table(IDADE_TOMA_BEBIDA)[1:3]
 chart = barplot(
   elements,
-  main = "Idade que começou a beber"
+  main = "Idade que começou a beber",
   ylab = "Nº de pessoas",
   xlab = "Faixas etárias",
-  ylim = c(0,50),  
+  ylim = c(0,35),  
   names = c("Menos de 16 anos", "16-20 anos", "21-25 anos"),
   col = colors
 )
